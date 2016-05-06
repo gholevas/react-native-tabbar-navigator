@@ -91,6 +91,7 @@ class MainTabBar extends Component {
       <TabBarIOS
         style={style.flexEnabled}
         tintColor={this.props.tabTintColor}
+        translucent={false}
         barTintColor={this.props.tabBarTintColor}>
         {this.renderTabBarItems()}
       </TabBarIOS>
